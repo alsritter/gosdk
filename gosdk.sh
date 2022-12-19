@@ -15,7 +15,7 @@ GOSDK_CURRENT=~/.gosdk/sdk/current
 # 全局入口
 gosdk(){
     currentVersion=$(readlink ${GOSDK_CURRENT} 2>/dev/null)
-    remoteGo="https://golang.google.cn/dl/"
+    remoteGo="https://go.dev/dl/"
 
 __gosdk_local_list(){
     echo "local go version"
